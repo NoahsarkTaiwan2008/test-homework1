@@ -12,9 +12,8 @@
 .student_button {
     display: inline-block;
     padding: 10px;
-    border: 3px solid rgb(226, 178, 178);
     border-radius: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(163, 155, 144);
     cursor: pointer;
     margin: 10px;
     /* 調整按鈕之間的距離 */
@@ -47,6 +46,6 @@ footer {
     text-align: center;
     background-color: black;
     z-index: 2;
-    height: 50px; /* 添加高度屬性 */
+    height: 50px;
+    /* 添加高度屬性 */
 }
-
