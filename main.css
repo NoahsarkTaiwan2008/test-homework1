@@ -48,3 +48,10 @@ nav ul li a {
 nav ul li:hover {
     background: #83bfbf;
 }
+
+main {
+    border: 10px solid #8ee4e4;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
