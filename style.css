@@ -1,51 +1,50 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 使用 min-height 來確保頁面至少填滿整個視窗高度 */
+    background-color: #b3ffff;
+}
+
 .main_page {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-top: 20px;
 }
 
 .student_button {
-    display: inline-block;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgb(163, 155, 144);
-    cursor: pointer;
     margin: 10px;
-    /* 調整按鈕之間的距離 */
-    margin-bottom: 0;
+    background: #0bd;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
 }
 
 .student_button:hover {
-    box-shadow: 5px 8px 2px rgba(0, 0, 0, 0.7);
+    background: #80bfff;
 }
 
-.student_button img {
-    max-width: 100%;
-    height: auto;
+.student_button > img {
     border-radius: 20px;
-}
-
-.student_button h5 {
-    background-color: inherit;
-    text-align: center;
+    margin: 10px;
 }
 
 h1 {
-    z-index: 1;
     text-align: center;
-    margin-top: 20px;
-    /* 將 h1 元素與按鈕之間的距離調整為 20px */
+    cursor: pointer;
 }
 
 footer {
     text-align: center;
-    background-color: black;
-    z-index: 2;
-    height: 50px;
-    /* 添加高度屬性 */
+    margin-top: auto; 
+    padding: 10px; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
+    z-index: 1; 
 }
