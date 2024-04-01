@@ -52,6 +52,7 @@ nav ul li:hover {
 main {
     border: 10px solid #8ee4e4;
     border-radius: 20px;
+    background: #f0fcfc; 
     margin: 20px;
     padding: 10px;
 }
